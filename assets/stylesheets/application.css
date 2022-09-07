@@ -1,0 +1,54 @@
+th, td {
+    padding: 15px;
+}
+
+.table-row-separated > thead > tr > th,
+.table-row-separated > tbody > tr > td {
+    border-bottom: 1px solid #000;
+}
+
+table.table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+textarea {
+    font-family: Arial;
+    padding: 1px 2px;
+}
+
+body {
+    background-color: rgb(238, 199, 255);
+}
+
+div.container {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(158, 89, 188);
+    color:rgb(238, 199, 255)
+}
+
+i {
+    color: white;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: rgb(158, 89, 188);
+    background-color: white;
+    border-width: 10px;
+    height: 0px;
+}
+
+a {
+    color: lightgray;
+}
+
+a:hover, a:visited:hover {
+    color: gray
+}
+
+a:visited {
+    color: white;
+}
