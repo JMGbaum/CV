@@ -41,14 +41,10 @@ hr {
     height: 0px;
 }
 
-a {
+a, a:visited {
     color: lightgray;
 }
 
 a:hover, a:visited:hover {
     color: gray;
-}
-
-a:visited {
-    color: white;
 }
